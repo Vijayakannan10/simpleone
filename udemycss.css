@@ -116,7 +116,7 @@
    bottom:100px;
     background-color: white;
     color:black;
-    z-index: 4;
+    z-index: 1;
     margin: 20px;
     animation-name: vijay;
     animation-duration: 2s;
@@ -206,4 +206,26 @@
     display:inline-block;
     padding:20px;
     margin-top: 10px;
+}
+@media  screen and (max-width:800px) {
+    body{
+        font-size:10px;
+    }
+}
+@media  screen and (max-width:600px) {
+    .container__set--1,.container__set--2,.container__set--3,.container__set--4{
+        margin-bottom: 10px;
+        flex-basis:40%;
+        text-align: center;
+    }
+    .menubar__1--name{
+        margin-left: 200px;
+    }
+    .menubar__2,.menubar__3{
+        display: none;
+    }
+    .one{
+        padding:5px;
+    }
+
 }
